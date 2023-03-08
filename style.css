@@ -21,7 +21,7 @@
             animation: bg-color var(--dur) var(--ease) infinite;
   }
   .section-p2{
-    padding-bottom: 70px;
+    padding-bottom: 20px;
   }
 .container .mes{
   line-height: 1.5em;
