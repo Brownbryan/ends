@@ -20,7 +20,29 @@
     -webkit-animation: bg-color var(--dur) var(--ease) infinite;
             animation: bg-color var(--dur) var(--ease) infinite;
   }
+  .mes{
+    color:#fff !important;
+    font-size: 50px;
+    font-weight: bold;
+    font-weight: 600;
+  }
+  .btn{
+    border: #363636;
+    border-radius: 80%;
+    height: 100%;
+    background-color: gray;
+    cursor: pointer;
+  }
+    .btn:hover{
+        background-color: red;
+    }
+  .conta{
+    justify-content: center;
+    flex-direction: row; 
+    display: flex;
+ }
   .message{
+    color:black !important;
     font-size: 50px;
     font-weight: bold;
     font-weight: 600;
