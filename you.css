@@ -14,9 +14,7 @@
   body {
     display: grid;
     place-items: center;
-    overflow: hidden;
-    -webkit-animation: bg-color var(--dur) var(--ease) infinite;
-            animation: bg-color var(--dur) var(--ease) infinite;
+   
     background: #059144;
   }
   .img{
