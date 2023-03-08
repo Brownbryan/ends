@@ -32,7 +32,33 @@
     flex: content;
     width: 50%;
  }
- .arrow span {
+ /* arrow css */
+
+ HTML CSSResult Skip Results Iframe
+EDIT ON
+body { background: #2d2d37;}
+a { color: white; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+ /* .arrow span {
     display: block;
     width: 30px;
     height: 30px;
@@ -61,7 +87,7 @@
         opacity: 0;
         transform: rotate(45deg) translate(20px,20px);
     }
-}
+} */
 .btn{
     font-size: 14px;
     font-weight: 600;
