@@ -49,6 +49,16 @@
         <a href="you.html"><button class="btn"> click here</button></a>
     </div>  -->
 
+    <!-- Change Title when user changes Tab -->
+    <script> 
+      let docTitle = document.title;
+      window.addEventListener("blur",()=>{
+        document.title = "Come Back";
+      });
+      window.addEventListener("focus",()=>{
+        document.title = docTitle;
+      });
+      </script>
 
   </body>
   </html>

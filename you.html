@@ -50,5 +50,15 @@
   </div>
   
 </footer>
+<!-- Change Title when user changes Tab -->
+<script> 
+let docTitle = document.title;
+window.addEventListener("blur",(e)=>{
+  document.title = "Come back ";
+});
+window.addEventListener("focus",(e)=>{
+  document.title = docTitle;
+});
+</script>
 </body>
 </html>
